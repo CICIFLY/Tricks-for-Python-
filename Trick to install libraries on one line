@@ -1,0 +1,12 @@
+
+# Are you having troubles to install one of the popular libraries manully? 
+# Or do you think it's too time consuming to install them separately?
+# I recently found a way to install "Jupyter notebook, matplotlib, numpy,scipy,scikit-learn,tensorflow" on one command line.
+# And it works on Linux , Windows 10 and Virtual environment too.
+
+First, setup :  you need to have python 3 and pip3 installed 
+
+Here is the code:
+pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn tensorflow 
+
+Hope it helps!
