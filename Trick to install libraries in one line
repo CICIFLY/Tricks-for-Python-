@@ -5,8 +5,31 @@
 # And it works on Linux , Windows 10 and Virtual environment too.
 
 First, setup :  you need to have python 3 and pip3 installed 
+how to install pip3 on ubuntu ? 
 
-Here is the code:
+sudo apt-get -y install python3-pip
+
+But before installing try to update using command
+
+sudo apt-get update
+
+If first did not work then you can also do this using curl
+
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python3 get-pip.py --user
+
+Then to verify installation try
+
+pip3 --help 
+
+For checking version :
+
+pip3 --version 
+
+
+
+
+Here is the magic code:
 pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn tensorflow 
 
 Hope it helps!
