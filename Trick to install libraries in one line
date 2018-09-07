@@ -4,32 +4,36 @@
 # I recently found a way to install "Jupyter notebook, matplotlib, numpy,scipy,scikit-learn,tensorflow" on one command line.
 # And it works on Linux , Windows 10 and Virtual environment too.
 
-First, setup :  you need to have python 3 and pip3 installed 
-how to install pip3 on ubuntu ? 
+1. setup :  you need to have python 3 and pip3 installed 
+   (1).how to install pip3 on ubuntu ? 
+       sudo apt-get update  # update first 
+       sudo apt-get -y install python3-pip
 
-sudo apt-get -y install python3-pip
-
-But before installing try to update using command
-
-sudo apt-get update
-
-If first did not work then you can also do this using curl
-
-curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
-python3 get-pip.py --user
-
-Then to verify installation try
-
-pip3 --help 
-
-For checking version :
-
-pip3 --version 
+   (2) If first did not work then you can also do this using curl
+        curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+  
+2. python3 get-pip.py --user
+3. pip3 --help            # verify installation 
+4. pip3 --version   # For checking version :
 
 
+5. Here is the magic code:
+   pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn tensorflow 
 
+Addition notes:
+When I run my codes , it shows "Illegal instruction (core dumped)" after running import tensorflow.
+It happens because your computer CPU requires an earlier tensorflow version . So degrade your version . 
 
-Here is the magic code:
-pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn tensorflow 
+(1) uninstall your tensorflow first by command 
+    pip3 uninstall tensorflow 
 
+(2) install tensorflow with earlier version by command 
+    pip3 install tensorflow==1.5.0
+ 
+ if error like this occurs in step 2 "Cannot uninstall 'html5lib'. It is a distutils installed project and thus we cannot accurately...." 
+ then install html5lib package before you install the earlier version.
+  
+ install html5lib by command : 
+   conda install -c anaconda html5lib 
+    
 Hope it helps!
