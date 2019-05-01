@@ -1,14 +1,19 @@
 
-# Are you having troubles to install one of the popular libraries manully? 
-# Or do you think it's too time consuming to install them separately?
-# I recently found a way to install "Jupyter notebook, matplotlib, numpy,scipy,scikit-learn,tensorflow" on one command line.
-# And it works on Linux , Windows 10 and Virtual environment too.
+    Steps for Setting Up Virtual Environment on Ubunbu and Install Common Python Libraries in One Line 
+    
+### Are you having troubles to install one of the popular libraries manully? 
+### Or do you think it's too time consuming to install them separately?
+
+ I recently found a way to install "Jupyter notebook, matplotlib, numpy,scipy,scikit-learn,tensorflow" on one command line.
+ And it works on Linux , Windows 10 and Virtual environment too.
 
 1. Create Virtual Environment:
 (1) pip install virtualenv
 (2) virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
 (3) source my_working_environment3/bin/activate  
 (command to open my virtual environment on Linux or Mac. On windows it would be : activate my_working_environment3) 
+
+
 
 2. Install python3 and pip3
 (1) sudo apt-get install python3
@@ -17,16 +22,22 @@
 (4) sudo apt-get -y install python3-pip
     (If it does not work, use curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py" )
 
+
+
 3. Here is the magic code:
    pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn tensorflow keras langdetect 
+   
+   
+   
 4. Check if the libraries have been successfully installed 
    eg: 
    (1) after "~$ " type : python
    (2) after " >>>" type: from langdetect import detect
 
-Addition notes:
-When I run my codes , it shows "Illegal instruction (core dumped)" after running import tensorflow.
-It happens because your computer CPU requires an earlier tensorflow version . So degrade your version . 
+
+### Addition notes:
+* When I run my codes , it shows "Illegal instruction (core dumped)" after running import tensorflow.
+* It happens because your computer CPU requires an earlier tensorflow version . So degrade your version . 
 
 (1) uninstall your tensorflow first by command 
     pip3 uninstall tensorflow 
@@ -34,10 +45,9 @@ It happens because your computer CPU requires an earlier tensorflow version . So
 (2) install tensorflow with earlier version by command 
     pip3 install tensorflow==1.5.0
  
- if error like this occurs in step 2 "Cannot uninstall 'html5lib'. It is a distutils installed project and thus we cannot accurately...." 
- then install html5lib package before you install the earlier version.
+* if error like this occurs in step 2 "Cannot uninstall 'html5lib'. It is a distutils installed project and thus we cannot accurately...." 
+*  then install html5lib package before you install the earlier version.
   
- install html5lib by command : 
-   conda install -c anaconda html5lib 
+* install html5lib by command :  conda install -c anaconda html5lib 
     
 Hope it helps!
