@@ -1,8 +1,8 @@
 
     Steps for Setting Up Virtual Environment on Ubunbu and Install Common Python Libraries in One Line 
     
-### Are you having troubles to install one of the popular libraries manully? 
-### Or do you think it's too time consuming to install them separately?
+### Having troubles to install popular python libraries ? 
+### Too time-consuming to install them separately?
 
  I recently found a way to install "Jupyter notebook, matplotlib, numpy,scipy,scikit-learn,tensorflow" on one command line.
  And it works on Linux , Windows 10 and Virtual environment too.
