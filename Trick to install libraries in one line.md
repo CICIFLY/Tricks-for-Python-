@@ -8,14 +8,14 @@
  And it works on Linux , Windows 10 and Virtual environment too.
 
 1. Create Virtual Environment:
-(1) pip install virtualenv
+(1) pip3 install virtualenv
 
 (2) virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
 
-(3) source my_working_environment3/bin/activate  
+(3) source my_working_environment3/bin/activate  (command to open my virtual environment on Linux or Mac.)
+    On windows it would be : activate my_working_environment3 
 
-(command to open my virtual environment on Linux or Mac. On windows it would be : activate my_working_environment3) 
-
+ps: To remove the virtual environment : rm -rf venv
 
 
 2. Install python3 and pip3
@@ -28,7 +28,7 @@
 
 
 3. Here is the magic code:
-   pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn tensorflow keras langdetect 
+   pip3 install --upgrade  numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras langdetect 
    
    
    
