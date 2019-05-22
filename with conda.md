@@ -1,5 +1,6 @@
-References : https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
-            https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+References : 
+ * https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+ * https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
 
 ### This section is for installing conda on your Linux machine
 1. Download the installer:
@@ -30,6 +31,6 @@ References : https://conda.io/projects/conda/en/latest/user-guide/install/linux.
  ### This section is for create virtual environment 
  1. Update conda by typing : conda update conda
  2. Create your virtual environment : conda create -n my_working_environment3 python=3.6 anaconda
-    ('my_working_environment3' is my virtual environment name .  Python version is specified to 3.6. you can change  )
+    ('my_working_environment3' is my virtual environment name .  Python version is specified to 3.6. you can change to your reference. This step may take a while depends on your machine )
  3. Activate your virtual environment : source activate yourenvname
- 4. Install python libraries in the virtual environment:  conda install -n my_working_environment3 
+ 4. Install python libraries in the virtual environment:  conda install -n my_working_environment3 numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras langdetect 
