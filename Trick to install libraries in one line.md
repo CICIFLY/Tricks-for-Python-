@@ -9,8 +9,11 @@
 
 1. Create Virtual Environment:
 (1) pip install virtualenv
+
 (2) virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
+
 (3) source my_working_environment3/bin/activate  
+
 (command to open my virtual environment on Linux or Mac. On windows it would be : activate my_working_environment3) 
 
 
@@ -33,6 +36,9 @@
    eg: 
    (1) after "~$ " type : python
    (2) after " >>>" type: from langdetect import detect
+
+
+ps: It is not recommended to mix different versions of python. Create 2 different virtual environments for 2 versions is a wiser choice.
 
 
 ### Addition notes:
