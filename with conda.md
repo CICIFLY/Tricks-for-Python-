@@ -28,7 +28,7 @@ References :
 
 
  
- ### This section is for creating virtual environment 
+ ### This section is for creating virtual environment and installing libraries
  1. Update conda by typing : conda update conda
  
  2. Create your virtual environment : conda create -n my_working_environment3 python=3.6 anaconda
@@ -42,5 +42,9 @@ References :
  
  5. Check the libraries installed : conda list
  
- You are all set 
+ You are all set  !!!!!
+ 
+ 6. Deactiavte your virtual environment:  source deactivate
+ 
+ 7. Delete a virtual environment : conda remove -n yourenvname -all
  
