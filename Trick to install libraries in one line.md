@@ -8,21 +8,21 @@
  And it works on Linux , Windows 10 and Virtual environment too.
 
 1. Create Virtual Environment:
-(1) pip3 install virtualenv
+   (1). pip3 install virtualenv
 
-(2) virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
+   (2) virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
 
-(3) source my_working_environment3/bin/activate  (command to open my virtual environment on Linux or Mac.)
+   (3) source my_working_environment3/bin/activate  (command to open my virtual environment on Linux or Mac.)
     On windows it would be : activate my_working_environment3 
 
 ps: To remove the virtual environment : rm -rf venv
 
 
 2. Install python3 and pip3
-(1) sudo apt-get install python3
-(2) sudo apt autoremove ( optional. Only when step 4 shows " Use 'sudo apt autoremove' to remove them. " ) 
-(3) sudo apt-get update  # update first 
-(4) sudo apt-get -y install python3-pip
+   (1) sudo apt-get install python3
+   (2) sudo apt autoremove ( optional. Only when step 4 shows " Use 'sudo apt autoremove' to remove them. " ) 
+   (3) sudo apt-get update  # update first 
+   (4) sudo apt-get -y install python3-pip
     (If it does not work, use curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py" )
 
 
