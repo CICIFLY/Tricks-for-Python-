@@ -1,21 +1,17 @@
 
     Steps for Setting Up Virtual Environment on Ubunbu and Install Common Python Libraries in One Line 
-    
-### Having troubles to install popular python libraries ? 
-### Too time-consuming to install them separately?
-
- I recently found a way to install "Jupyter notebook, matplotlib, numpy,scipy,scikit-learn,tensorflow" on one command line.
- And it works on Linux , Windows 10 and Virtual environment too.
+  
+PS: It is not recommended to mix different versions of python. Create 2 different virtual environments for 2 versions is a wiser choice.
 
 1. Create Virtual Environment:
    (1). pip3 install virtualenv
 
-   (2) virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
+   (2). virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
 
-   (3) source my_working_environment3/bin/activate  (command to open my virtual environment on Linux or Mac.)
+   (3). source my_working_environment3/bin/activate  (command to open my virtual environment on Linux or Mac.)
     On windows it would be : activate my_working_environment3 
 
-ps: To remove the virtual environment : rm -rf venv
+   ps: To remove the virtual environment : rm -rf venv
 
 
 2. Install python3 and pip3
@@ -38,7 +34,7 @@ ps: To remove the virtual environment : rm -rf venv
    (2) after " >>>" type: from langdetect import detect
 
 
-ps: It is not recommended to mix different versions of python. Create 2 different virtual environments for 2 versions is a wiser choice.
+
 
 
 ### Addition notes:
