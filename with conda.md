@@ -44,7 +44,7 @@ References :
  
  You are all set  !!!!!
  
- 6. Deactiavte your virtual environment:  source deactivate
+ 6. Deactiavte your virtual environment:  source deactivate ( if it does not work, try type : 'conda deactivate')
  
  7. Delete a virtual environment : conda remove -n yourenvname -all
  
