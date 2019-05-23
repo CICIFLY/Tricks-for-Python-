@@ -4,12 +4,13 @@
 PS: It is not recommended to mix different versions of python. Create 2 different virtual environments for 2 versions is a wiser choice.
 
 1. Create Virtual Environment:
+   
    (1). pip3 install virtualenv
 
    (2). virtualenv my_working_environment3  (my_working_environment3 is my virtual environment name)
 
    (3). source my_working_environment3/bin/activate  (command to open my virtual environment on Linux or Mac.)
-    On windows it would be : activate my_working_environment3 
+        On windows it would be : activate my_working_environment3 
 
    ps: To remove the virtual environment : rm -rf venv
 
