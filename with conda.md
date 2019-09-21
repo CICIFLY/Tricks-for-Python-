@@ -35,7 +35,7 @@ References :
     ('my_working_environment3' is my virtual environment name .  Python version is specified to 3.6. you can change to your   
     reference. This step may take a while depends on your machine. )
  
- 3. Activate your virtual environment : source activate my_working_environment3
+ 3. Activate your virtual environment : conda activate my_working_environment3  /   source activate my_working_environment3
    (Again, my_working_environment3' is my virtual environment name. You can change to yours )
  
  4. Install python libraries in the virtual environment:  conda install -n my_working_environment3 numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras ( myou can install all libraries in a single line ) 
