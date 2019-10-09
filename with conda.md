@@ -30,22 +30,30 @@ References :
 download the version you need via this link :  https://docs.conda.io/en/latest/miniconda.html
 
 These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments. 
+
+     you must use conda shell prompt ( click window icon at left bottom )
        
      eg: $ conda install numpy
      eg: $ conda create -n myenv 
 
  
- ### This section is for creating virtual environment and installing libraries
+ ### This section is for creating virtual environment and installing libraries for conda on windows 
+  
+     you must use conda shell prompt ( click window icon at left bottom ) 
+  
  1. Update conda by typing : conda update conda
  
- 2. Create your virtual environment : conda create -n my_working_environment3 python=3.6 anaconda
-    ('my_working_environment3' is my virtual environment name .  Python version is specified to 3.6. you can change to your   
-    reference. This step may take a while depends on your machine. )
+ 2. Create your virtual environment : conda create -n my_working_environment3 python=3.6 
+     
+         'my_working_environment3' is my virtual environment name (choose a name for yourself ) 
+          Python version is specified to 3.6 (optional) 
+          you can change to your reference. This step may take a while depends on your machine. 
  
- 3. Activate your virtual environment : conda activate my_working_environment3  /   source activate my_working_environment3
-   (Again, my_working_environment3' is my virtual environment name. You can change to yours )
+ 3. Activate your virtual environment : conda activate my_working_environment3  
  
- 4. Install python libraries in the virtual environment:  conda install -n my_working_environment3 numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras ( myou can install all libraries in a single line ) 
+         (Again, my_working_environment3' is my virtual environment name. You can change to yours )
+ 
+ 4. Install python libraries in the virtual environment:  conda install -n my_working_environment3 numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras ( you can install all libraries in a single line ) 
  
  5. Check the libraries installed : conda list
  
