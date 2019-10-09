@@ -26,8 +26,14 @@ References :
 
     Open a terminal window and Remove the entire miniconda install directory with:   rm -rf ~/miniconda
 
-or 
+#### or 
 download the version you need via this link :  https://docs.conda.io/en/latest/miniconda.html
+
+These Miniconda installers contain the conda package manager and Python. Once Miniconda is installed, you can use the conda command to install any other packages and create environments. 
+       
+     eg: $ conda install numpy
+     eg: $ conda create -n myenv 
+
  
  ### This section is for creating virtual environment and installing libraries
  1. Update conda by typing : conda update conda
