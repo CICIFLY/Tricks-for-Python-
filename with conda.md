@@ -26,7 +26,8 @@ References :
 
     Open a terminal window and Remove the entire miniconda install directory with:   rm -rf ~/miniconda
 
-
+or 
+download the version you need via this link :  https://docs.conda.io/en/latest/miniconda.html
  
  ### This section is for creating virtual environment and installing libraries
  1. Update conda by typing : conda update conda
