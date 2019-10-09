@@ -3,9 +3,9 @@ References :
  * https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
 
 ### This section is for installing conda on your Linux machine
-1. Download the installer:
+1. Download the installer:  ( I chose this miniconda) 
 
-        Miniconda installer for Linux.  ( I chose this one) 
+        Miniconda installer for Linux.  
 
         Anaconda installer for Linux.
 
