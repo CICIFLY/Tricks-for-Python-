@@ -53,8 +53,10 @@ These Miniconda installers contain the conda package manager and Python. Once Mi
  
          (Again, my_working_environment3' is my virtual environment name. You can change to yours )
  
- 4. Install python libraries in the virtual environment:  conda install -n my_working_environment3 numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras ( you can install all libraries in a single line ) 
+ 4. Install python libraries in the virtual environment:  ( you can install all libraries in a single line ) 
  
+        conda install -n my_working_environment3 numpy pandas scipy scikit-learn jupyter matplotlib tensorflow keras 
+    
  5. Check the libraries installed : conda list
  
  You are all set  !!!!!
